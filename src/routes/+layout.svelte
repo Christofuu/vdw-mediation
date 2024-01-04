@@ -1,5 +1,12 @@
+<script>
+  import { HamburgerIcon } from "/node-modules/svelte-icons";
+</script>
+
 <div class="navbar">
   <h1>VanDeWeghe Mediation</h1>
+  <button class="hamburger-button" on:click={() => menuOpen = !menuOpen}>
+    <HamburgerIcon />
+  </button>
   <nav>
     <a href="/">Home</a>
     <a href="/about">About</a>
@@ -31,6 +38,11 @@
     /* this will apply to <body> */
     margin: 0;
     padding: 0;
+  }
+
+  .hamburger-button {
+    background: none;
+    border: none;
   }
 
   h1 {

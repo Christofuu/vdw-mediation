@@ -20,7 +20,7 @@
           <li>Army Officer</li>
           <li>William and Mary Law School, JD</li>
           <li>Princeton University, AB</li>
-          <li>LinkedIn (https://linkedin.com/in/billvandeweghe)</li>
+          <li><a href="https://linkedin.com/in/billvandeweghe">LinkedIn (https://linkedin.com/in/billvandeweghe)</a></li>
         </ul>
       </div>
   </div>

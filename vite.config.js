@@ -7,5 +7,10 @@ export default defineConfig({
 		fs: {
 			allow: ['..']
 		}
-	}
+	},
+	resolve: {
+		alias: {
+		  'svelte-icons': 'parlay-mediation/node_modules/svelte-icons',
+		},
+	  },
 });

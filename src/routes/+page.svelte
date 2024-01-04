@@ -3,7 +3,7 @@
     <h1>Dispute Resolution</h1>
     <ul>
         <li>
-            <p>Mediators who understand the complexities of business, the risks of litigation, and what is needed to reach an agreement.</p>
+            <p>A mediator who understands the complexities of business, the risks of litigation, and what is needed to reach an agreement.</p>
         </li>
         <li>
             <p>Affordable, one price fees, so that the costs of the mediation itself is not an issue.</p>
