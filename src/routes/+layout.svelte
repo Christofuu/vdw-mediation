@@ -1,13 +1,14 @@
 <script>
-  import { HamburgerIcon } from "/node-modules/svelte-icons";
+  import GiHamburgerMenu from 'svelte-icons/gi/GiHamburgerMenu.svelte'
+  let menuOpen = false;
 </script>
 
 <div class="navbar">
   <h1>VanDeWeghe Mediation</h1>
   <button class="hamburger-button" on:click={() => menuOpen = !menuOpen}>
-    <HamburgerIcon />
+    <GiHamburgerMenu />
   </button>
-  <nav>
+  <nav class:open={menuOpen}>
     <a href="/">Home</a>
     <a href="/about">About</a>
     <a href="/fees">Fees</a>
@@ -40,22 +41,27 @@
     padding: 0;
   }
 
+  
   .hamburger-button {
     background: none;
     border: none;
+    height: 3rem;
+    width: 3rem;
+    color: white;
+    display: none;
   }
-
+  
   h1 {
     color: white;
     font-family: Adminata;
     font-weight: lighter;
   }
-
+  
   .navbar {
     background-color: #090441;
     padding: 1rem 0;
   }
-
+  
   footer {
     position: relative;
     bottom: 0;
@@ -67,13 +73,13 @@
     margin-right: 20rem;
     /* background-color: grey; Optional to visually differentiate footer */
   }
-
+  
   footer a,
   strong {
     font-weight: bold;
     color: darkslategrey;
   }
-
+  
   .navbar {
     display: flex;
     flex-flow: row;
@@ -81,15 +87,24 @@
     align-items: center;
     margin: 0;
   }
-
+  
   .navbar nav a {
     display: inline-block;
     margin: 0 1rem;
     text-decoration: none;
     color: whitesmoke;
   }
-
+  
   .navbar nav a:hover {
     text-decoration: underline;
   }
+
+@media only screen and (max-width: 768px) {
+.navbar nav {
+  display: none;
+}
+.hamburger-button {
+  display: block;
+}
+}
 </style>
