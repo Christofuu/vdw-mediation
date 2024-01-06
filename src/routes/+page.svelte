@@ -1,3 +1,4 @@
+
 <div class="content">
     <img src="/sd-skyline.jpg" alt="Banner of the San Diego downtown skyline at night. This was shot by Ted Ross and is free for personal and commerical use under the CC 2.5 license." />
     <h1>Dispute Resolution</h1>

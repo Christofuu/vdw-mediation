@@ -1,3 +1,4 @@
+
 <div>
   <h1>Privacy Policy</h1>
   <p>Last updated: January 4, 2024</p>

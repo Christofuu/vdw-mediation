@@ -1,4 +1,5 @@
-export const prerender = true;
+
+
 <h1>About</h1>
 <div class="content">
   
@@ -32,7 +33,7 @@ export const prerender = true;
       disputes in a cost-effective and efficient manner. Contact us today to
       schedule a consultation.
     </p>
-    <a href="/contact-us">Contact Us</a>
+    <a href="/contact">Contact Us</a>
   </div>
 </div>
 
