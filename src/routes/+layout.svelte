@@ -1,4 +1,3 @@
-export const prerender = true;
 
 <div class="navbar">
   <div  class="title">
