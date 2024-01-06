@@ -1,3 +1,4 @@
+export const prerender = true;
 <h1>About</h1>
 <div class="content">
   
