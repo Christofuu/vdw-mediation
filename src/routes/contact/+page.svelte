@@ -2,11 +2,19 @@
   <h1>Contact</h1>
   <div class="contact">
     <div class="contact-left">
-      <p>
-        VanDeWeghe Mediation is here for you, 24/7. Do not hesitate to reach out
-        using our contact information here, or send a message using this form
-        below.
-      </p>
+      <div class="contact-info">
+        <div>
+          <p>
+            VanDeWeghe Mediation is here for you, 24/7. Do not hesitate to reach out
+            using our contact information here, or send a message using this form
+            below.
+          </p>
+        </div>
+        <div>
+          <a href="mailto: bill@vdwmediation.com">bill@vdwmediation.com</a>
+          <a href="mailto: trina@vdwmediation.com">trina@vdwmediation.com</a>
+        </div>
+      </div>
       <div class="contact-box">
         <form
           action="mailto:bill@vdwmediation.com"
@@ -26,7 +34,7 @@
             <div>
               <label for="email"><p><strong>Email:</strong></p></label>
               <input
-                type="text"
+                type="email"
                 id="email"
                 name="email"
                 placeholder="Your email.."
@@ -45,10 +53,7 @@
         </form>
       </div>
     </div>
-    <div class="contact-info">
-      <a href="mailto: bill@vdwmediation.com">bill@vdwmediation.com</a>
-      <a href="mailto: trina@vdwmediation.com">trina@vdwmediation.com</a>
-    </div>
+    
   </div>
 </div>
 
@@ -97,26 +102,36 @@
   }
 
   .subject textarea {
-    width: 30rem;
+    width: 45rem;
     height: 15rem;
   }
 
   .contact-left {
-    width: 35rem;
+    width: 50rem;
   }
 
   .contact-info {
     margin-left: 1rem;
     margin-top: 1rem;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-info div {
+    margin-right: 1rem;
+  }
+
+  .contact-info a {
+    color: black;
   }
 
   input[type="text"],
   input[type="email"],
   textarea {
     /* Basic styling */
-    width: 10rem; /* Full width */
+    width: 15rem; /* Full width */
     padding: 0.75rem; /* Add padding */
     border: 1px solid #ccc; /* Gray border */
     border-radius: 0.25rem; /* Rounded corners */
@@ -153,5 +168,21 @@
   /* Additional styling on hover */
   input[type="submit"]:hover {
     background-color: #0062cc; /* Darker blue on hover */
+  }
+
+  @media only screen and (max-width: 768px) {
+    .contact, .contact-left {
+      width: 30rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 10rem;
+    }
+
+    .subject textarea {
+      width: 25rem;
+    }
   }
 </style>

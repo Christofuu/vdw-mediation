@@ -40,4 +40,11 @@
     ul li {
         font-size: 1rem;
     }
+
+    @media only screen and (max-width: 768px) {
+        .content img {
+            width: 40rem;
+            height: 20rem;
+        }
+    }
 </style>

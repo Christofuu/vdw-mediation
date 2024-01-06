@@ -206,4 +206,10 @@
     margin: 0 30rem;
     margin-bottom: 10rem;
   }
+
+  @media only screen and (max-width: 1200px) {
+    div {
+      margin: 0 5rem;
+    }
+  }
 </style>

@@ -3,12 +3,12 @@
   
   <!-- bill bio section-->
     <div class="about_me">
-      <div>
+      <div class="profile">
         <h2>Bill VanDeWeghe</h2>
         <img src="/bill-pfp.jpeg" alt="Bill VanDeWeghe" />
       </div>
       <div class="experience">
-        <p>Experience</p>
+        <h4>Experience</h4>
         <ul>
           <li>CEO of Copia Scientific, lab equipment and services company</li>
           <li>Co-Founder, former CEO, of software startup company</li>
@@ -27,9 +27,9 @@
   <!-- /*bill footer section */ -->
   <div class="contact">
     <p>
-      Parlay Mediation provides mediation services to help parties resolve
+      VanDeWeghe Mediation provides mediation services to help parties resolve
       disputes in a cost-effective and efficient manner. Contact us today to
-      schedule an appointment with one of our mediators.
+      schedule a consultation.
     </p>
     <a href="/contact-us">Contact Us</a>
   </div>
@@ -51,15 +51,13 @@
     display: flex;
     flex-direction: row !important;
     margin-bottom: 2rem;
-    /* align-items: first baseline; */
-  }
-
-  .about_me div {
-    margin-left: 1rem !important;
+    align-items: start !important;
+    justify-content: start  !important;
   }
 
   .experience {
     margin: 0;
+    margin-top: .5rem !important;
     display: flex;
     align-items: start !important;
     justify-content: first baseline;
@@ -94,21 +92,21 @@
   .content {
     display: flex;
     flex-flow: column;
-    justify-content: center;
     align-items: center;
     /* align-items: baseline; */
   }
 
+  
   .content div {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    margin: 0 5rem;
+    margin: 0rem;
     margin-bottom: 2rem;
     width: 70rem;
   }
-
+  
   .content img {
     width: 18rem;
     height: 20rem;
@@ -120,7 +118,50 @@
     text-align: center;
   }
 
+  
+
   ul {
     padding-left: 0;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .about_me {
+      flex-direction: column !important;
+    }
+
+    .about_me div {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    .experience {
+      flex-direction: column !important;
+      align-items: center !important;
+      margin: 0;
+    }
+
+    .experience ul li {
+      margin-bottom: .25rem;
+    }
+
+    .contact {
+      flex-direction: column !important;
+      width: 20rem !important;
+    }
+
+    .contact a {
+      width: 20rem;
+    }
+
+    .content div {
+      margin: 0 1rem;
+      width: 20rem;
+    }
+
+    .content img {
+      margin: 0;
+      width: 15rem;
+      height: 18rem;
+    }
   }
 </style>
