@@ -48,4 +48,11 @@
             height: 20rem;
         }
     }
+
+    @media only screen and (max-width: 480px)  {
+        .content img {
+            max-width: 100%;
+            height: fit-content;
+        }
+    }
 </style>

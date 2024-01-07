@@ -213,4 +213,10 @@
       margin: 0 5rem;
     }
   }
+
+  @media only screen and (max-width: 600px) {
+    div {
+      margin: 0 1rem;
+    }
+  }
 </style>

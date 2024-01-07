@@ -186,4 +186,32 @@
       width: 25rem;
     }
   }
+
+  @media only screen and (max-width: 480px) {
+    .contact, .contact-left {
+      width: 20rem;
+    }
+
+    .contact-info {
+      flex-flow: column;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .client-info {
+      flex-flow: column;
+      margin-bottom: 1rem;
+      align-items: baseline;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 15rem;
+    }
+
+    .subject textarea {
+      width: 15rem;
+    }
+  }
 </style>

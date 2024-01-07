@@ -23,4 +23,11 @@
             margin-bottom: 10rem;
         }
     }
+
+    @media only screen and (max-width: 600px) {
+        div {
+            margin: 0 1rem;
+            margin-bottom: 10rem;
+        }
+    }
 </style>

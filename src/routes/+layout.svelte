@@ -1,4 +1,4 @@
-
+<!---- TODO: make fit screen on mobile -->
 <div class="navbar">
   <div  class="title">
     <h1>VanDeWeghe</h1>
@@ -103,6 +103,13 @@
       margin-left: 1rem;
       margin-right: 1rem;
       margin-bottom: 0;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .navbar nav a{
+      font-size: 0.8rem;
+      margin: 0 .25rem;
     }
   }
 </style>

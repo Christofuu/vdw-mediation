@@ -165,5 +165,59 @@
       width: 15rem;
       height: 18rem;
     }
+    
+  }
+
+  @media only screen and (max-width: 480px) {
+    .about_me {
+      flex-direction: column !important;
+      align-items: center !important;
+    }
+
+    .about_me div {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      width: 12rem !important;
+    }
+
+    .experience {
+      flex-direction: column !important;
+      align-items: center !important;
+      margin: 0;
+      
+    }
+
+    .profile {
+      align-self: center !important;
+    }
+
+    .experience ul {
+      width: 15rem !important;
+      font-size: .8rem !important;
+    }
+
+    .experience ul li {
+      margin-bottom: .25rem;
+    }
+
+    .contact {
+      flex-direction: column !important;
+      width: 15rem !important;
+    }
+
+    .contact a {
+      width: 12rem;
+    }
+
+    .content div {
+      margin: 0 1rem;
+      width: 15rem;
+    }
+
+    .content img {
+      margin: 0;
+      width: 15rem;
+      height: 18rem;
+    }
   }
 </style>
