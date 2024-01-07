@@ -1,15 +1,18 @@
 <!---- TODO: make fit screen on mobile -->
 <div class="navbar">
   <div  class="title">
-    <h1>VanDeWeghe</h1>
-    <h4>Dispute Resolution Services</h4>
+    <a href="/">
+
+      <h1>VanDeWeghe</h1>
+      <h4>Dispute Resolution Services</h4>
+    </a>
   </div>
   <nav>
     <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/fees">Fees</a>
-    <a href="/privacy-policy">Privacy Policy</a>
-    <a href="/contact">Contact Us</a>
+    <a href="/about" class="active">About</a>
+    <a href="/fees" class="active">Fees</a>
+    <a href="/privacy-policy" class="active">Privacy Policy</a>
+    <a href="/contact" class="active">Contact Us</a>
   </nav>
 </div>
 
@@ -53,6 +56,10 @@
     color: white;
     font-weight: lighter;
     margin-top: 0;
+  }
+
+  .title a {
+    text-decoration: none;
   }
 
   .navbar {
