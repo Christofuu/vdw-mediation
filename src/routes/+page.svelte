@@ -54,5 +54,10 @@
             max-width: 100%;
             height: fit-content;
         }
+
+        ul {
+            margin-bottom: 5rem;
+            padding-left: 2rem;
+        }
     }
 </style>
