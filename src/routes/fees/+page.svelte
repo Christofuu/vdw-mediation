@@ -1,33 +1,48 @@
-
 <div>
-    <h1>Fees</h1>
-    <h2>Hourly Rates</h2>
-    <p>
-        Hourly rates for all mediation and litigation services will be provided upon request. <a href="/contact">Contact us here</a> for more information on our hourly rates.
-    </p>
+  <h1>Fees</h1>
+  <p>
+    Based on the amount of time needed, the price provided will include
+    preparation time, follow up calls and all other expenses. Everyone should be
+    focused on reaching a satisfactory result, not a costly process. Generally,
+    a half day mediation fee will be $3500, and a full day fee will be $6000.
+  </p>
 </div>
 
 <style>
+  div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: baseline;
+    margin: 0 30rem;
+    margin-bottom: 28rem;
+  }
+
+  @media only screen and (max-width: 1500px) {
     div {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: baseline;
-        margin: 0 30rem;
-        margin-bottom: 28rem;
+      margin-left: 20rem;
+      margin-right: 20rem;
+      margin-bottom: 28rem;
     }
+  }
 
-    @media only screen and (max-width: 1200px) {
-        div {
-            margin: 0 5rem;
-            margin-bottom: 10rem;
-        }
+  @media only screen and (max-width: 1200px) {
+    div {
+      margin: 0 5rem;
+      margin-bottom: 28rem;
     }
+  }
 
-    @media only screen and (max-width: 600px) {
-        div {
-            margin: 0 1rem;
-            margin-bottom: 10rem;
-        }
+  @media only screen and (max-width: 768px) {
+    div {
+      margin: 0 2rem;
+      margin-bottom: 24rem;
     }
+  }
+
+  @media only screen and (max-width: 600px) {
+    div {
+      margin-bottom: 22rem;
+    }
+  }
 </style>

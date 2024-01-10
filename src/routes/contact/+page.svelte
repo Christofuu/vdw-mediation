@@ -1,4 +1,6 @@
-
+<script>
+  import { PUBLIC_EMAIL_KEY } from '$env/static/public';
+</script>
 <div class="container">
   <h1>Contact</h1>
   <div class="contact">
@@ -11,20 +13,26 @@
             below.
           </p>
         </div>
-        <div>
+        <div class="phone-and-email">
           <a href="mailto: bill@vdwmediation.com">bill@vdwmediation.com</a>
-          <a href="mailto: trina@vdwmediation.com">trina@vdwmediation.com</a>
+          <a href="tel:6195400627">619-540-0627</a>
+          <a href="mailto: tracy@vdwmediation.com">trina@vdwmediation.com</a>
         </div>
       </div>
       <div class="contact-box">
         <form
-          action="mailto:bill@vdwmediation.com"
+          action="https://api.web3forms.com/submit"
           method="post"
-          enctype="text/plain"
+          id="form"
         >
           <div class="client-info">
             <div>
               <label for="name"><p><strong>Name:</strong></p></label>
+              <input
+                type="hidden"
+                name="access_key"
+                value={PUBLIC_EMAIL_KEY}
+                />
               <input
                 type="text"
                 id="name"
@@ -40,13 +48,14 @@
                 name="email"
                 placeholder="Your email.."
               />
+              <input type="hidden" name="redirect" value="https://web3forms.com/success" />
             </div>
           </div>
           <div class="subject">
-            <label for="subject"><p><strong>Subject:</strong></p></label>
+            <label for="message"><p><strong>Subject:</strong></p></label>
             <textarea
-              id="subject"
-              name="subject"
+              id="message"
+              name="message"
               placeholder="Subject..."
             ></textarea>
           </div>
@@ -93,6 +102,12 @@
     flex-flow: column;
     justify-content: center;
     margin-right: 1rem;
+  }
+
+  .phone-and-email {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
   }
 
   .subject {

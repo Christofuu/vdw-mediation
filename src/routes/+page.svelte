@@ -32,6 +32,7 @@
     .content img {
         width: 45rem;
         height: 20rem;
+        margin-top: 1rem;
     }
 
     ul {

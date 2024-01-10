@@ -1,30 +1,44 @@
-
-
 <h1>About</h1>
 <div class="content">
-  
   <!-- bill bio section-->
-    <div class="about_me">
-      <div class="profile">
-        <h2>Bill VanDeWeghe</h2>
-        <img src="/bill-pfp.jpeg" alt="Bill VanDeWeghe" />
-      </div>
-      <div class="experience">
-        <h4>Experience</h4>
-        <ul>
-          <li>CEO of Copia Scientific, lab equipment and services company</li>
-          <li>Co-Founder, former CEO, of software startup company</li>
-          <li>Managing Director at investment banking firm</li>
-          <li>Public and Private Company Board Member</li>
-          <li>Shareholder in litigation firm, 15 years</li>
-          <li>Licensed since 1990, AV rated since 1994</li>
-          <li>Certified Mediator, Align Mediation</li>
-          <li>Army Officer</li>
-          <li>William and Mary Law School, JD</li>
-          <li>Princeton University, AB</li>
-          <li><a href="https://linkedin.com/in/billvandeweghe">LinkedIn (https://linkedin.com/in/billvandeweghe)</a></li>
-        </ul>
-      </div>
+  <div class="about_me">
+    <div class="profile">
+      <h2>Bill VanDeWeghe</h2>
+      <img src="/bill-pfp.jpeg" alt="Bill VanDeWeghe" />
+    </div>
+    <div class="experience">
+      <h4>Experience</h4>
+      <ul>
+        <li>CEO of lab equipment and services company</li>
+        <li>Co-Founder, former CEO, of software startup company</li>
+        <li>Managing Director at investment banking firm</li>
+        <li>Public and Private Company Board Member</li>
+        <li>Shareholder in litigation firm, 15 years</li>
+        <li>AV rated since 1994</li>
+        <li>Certified Mediator, Align Mediation</li>
+        <li>Army Officer</li>
+        <li>William and Mary Law School, JD</li>
+        <li>Princeton University</li>
+        <li>
+          <a href="https://linkedin.com/in/billvandeweghe"
+            >LinkedIn (https://linkedin.com/in/billvandeweghe)</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="bio">
+    <p>
+      VanDeWeghe has firsthand experience with the complex issues that business
+      owners, employees, boards, attorneys, contractors and vendors must deal
+      with. He understands the perspective of both plaintiffs and defendants as
+      they face the uncertainty, risks and costs of litigation. Strong
+      personalities and emotions, multiple parties, challenging facts and
+      entrenched positions can make it difficult to reach an agreement. That is
+      when experience, creativity and persistence make the difference. Whether
+      pre-litigation or close to trial, Bill is devoted to working with the
+      parties to resolve the toughest disputes as early as possible.
+    </p>
   </div>
   <!-- /*bill footer section */ -->
   <div class="contact">
@@ -49,17 +63,22 @@
     text-align: center;
   }
 
+  h4 {
+    font-size: 1.5rem;
+    margin-top: 1.3rem;
+  }
+
   .about_me {
     display: flex;
     flex-direction: row !important;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem !important;
     align-items: start !important;
-    justify-content: start  !important;
+    justify-content: start !important;
   }
 
   .experience {
     margin: 0;
-    margin-top: .5rem !important;
+    /* margin-top: .5rem !important; */
     display: flex;
     align-items: start !important;
     justify-content: first baseline;
@@ -98,7 +117,6 @@
     /* align-items: baseline; */
   }
 
-  
   .content div {
     display: flex;
     flex-flow: column;
@@ -108,9 +126,9 @@
     margin-bottom: 2rem;
     width: 70rem;
   }
-  
+
   .content img {
-    width: 18rem;
+    width: 15rem;
     height: 20rem;
     margin-bottom: 1rem;
     margin-right: 1rem;
@@ -120,10 +138,12 @@
     text-align: center;
   }
 
-  
-
   ul {
     padding-left: 0;
+  }
+
+  .bio p {
+    width: 50rem !important;
   }
 
   @media only screen and (max-width: 768px) {
@@ -143,7 +163,7 @@
     }
 
     .experience ul li {
-      margin-bottom: .25rem;
+      margin-bottom: 0.25rem;
     }
 
     .contact {
@@ -162,10 +182,9 @@
 
     .content img {
       margin: 0;
-      width: 15rem;
+      width: 14rem;
       height: 18rem;
     }
-    
   }
 
   @media only screen and (max-width: 480px) {
@@ -184,7 +203,6 @@
       flex-direction: column !important;
       align-items: center !important;
       margin: 0;
-      
     }
 
     .profile {
@@ -193,11 +211,11 @@
 
     .experience ul {
       width: 15rem !important;
-      font-size: .8rem !important;
+      font-size: 0.8rem !important;
     }
 
     .experience ul li {
-      margin-bottom: .25rem;
+      margin-bottom: 0.25rem;
     }
 
     .contact {

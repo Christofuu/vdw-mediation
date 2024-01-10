@@ -1,8 +1,6 @@
-<!---- TODO: make fit screen on mobile -->
 <div class="navbar">
-  <div  class="title">
+  <div class="title">
     <a href="/">
-
       <h1>VanDeWeghe</h1>
       <h4>Dispute Resolution Services</h4>
     </a>
@@ -40,7 +38,7 @@
     padding: 0;
   }
 
-  :global(h1,h2,h3,h4,h5) {
+  :global(h1, h2, h3, h4, h5) {
     font-family: Adminata;
     font-weight: lighter;
   }
@@ -90,7 +88,6 @@
     color: darkslategrey;
   }
 
-
   .navbar nav a {
     display: inline-block;
     margin: 0 1rem;
@@ -106,17 +103,19 @@
     .navbar {
       flex-direction: column;
     }
+  }
+
+  @media only screen and (max-width: 1500px) {
     footer {
-      margin-left: 1rem;
-      margin-right: 1rem;
+      margin-left: 3rem !important;
+      margin-right: 3rem !important;
       margin-bottom: 0;
     }
   }
-
   @media only screen and (max-width: 480px) {
-    .navbar nav a{
+    .navbar nav a {
       font-size: 0.8rem;
-      margin: 0 .25rem;
+      margin: 0 0.25rem;
     }
   }
 </style>
