@@ -7,5 +7,10 @@ export default defineConfig({
 		fs: {
 			allow: ['..']
 		}
+	},
+	build: {
+		rollupOptions: {
+			external: ['$env', 'import.meta.env']
+		}
 	}
 });
