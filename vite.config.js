@@ -1,8 +1,9 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
+import envPlugin from 'vite-plugin-env';
 
 export default defineConfig({
-	plugins: [sveltekit()],
+	plugins: [sveltekit(), envPlugin],
 	server: {
 		fs: {
 			allow: ['..']
@@ -10,7 +11,7 @@ export default defineConfig({
 	},
 	build: {
 		rollupOptions: {
-			external: ['$env', 'import.meta.env']
+			external: ['$env']
 		}
-	}
+	},
 });
