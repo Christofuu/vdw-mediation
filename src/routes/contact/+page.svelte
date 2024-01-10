@@ -1,5 +1,5 @@
 <script>
-  import { PUBLIC_EMAIL_KEY } from '$env';
+  import { PUBLIC_EMAIL_KEY } from 'import.meta.env';
 </script>
 <div class="container">
   <h1>Contact</h1>
