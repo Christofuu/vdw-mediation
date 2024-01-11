@@ -7,7 +7,7 @@
             <p>A mediator who understands the complexities of business, the risks of litigation, and what is needed to reach an agreement.</p>
         </li>
         <li>
-            <p>Affordable, one price fees, so that the costs of the mediation itself is not an issue.</p>
+            <p>Affordable fees so that the cost of the mediation itself does not become an issue.</p>
         </li>
     </ul>
 </div>
