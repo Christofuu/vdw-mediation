@@ -71,7 +71,7 @@
   .about_me {
     display: flex;
     flex-direction: row !important;
-    margin-bottom: 0rem !important;
+    margin-bottom: -1.5rem !important;
     align-items: start !important;
     justify-content: start !important;
   }
@@ -114,6 +114,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
+    /* margin-bottom: 0rem; */
     /* align-items: baseline; */
   }
 
@@ -188,6 +189,14 @@
   }
 
   @media only screen and (max-width: 480px) {
+    h1 {
+      margin-bottom: 0rem;
+    }
+
+    h4 {
+      margin-bottom: .5rem;
+    }
+
     .about_me {
       flex-direction: column !important;
       align-items: center !important;
@@ -197,6 +206,14 @@
       margin-left: 0 !important;
       margin-right: 0 !important;
       width: 12rem !important;
+    }
+
+    .bio  {
+      margin: 1rem 0 !important;
+    }
+    .bio p {
+      
+      width: 15rem !important;
     }
 
     .experience {
