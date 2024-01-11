@@ -8,7 +8,7 @@
       <div class="contact-info">
         <div>
           <p>
-            VanDeWeghe Mediation is here for you, 24/7. Do not hesitate to reach out
+            Do not hesitate to reach out
             using our contact information here, or send a message using this form
             below.
           </p>
@@ -16,7 +16,7 @@
         <div class="phone-and-email">
           <a href="mailto: bill@vdwmediation.com">bill@vdwmediation.com</a>
           <a href="tel:6195400627">619-540-0627</a>
-          <a href="mailto: tracy@vdwmediation.com">trina@vdwmediation.com</a>
+          <a href="mailto: tracy@vdwmediation.com">tracy@vdwmediation.com</a>
         </div>
       </div>
       <div class="contact-box">

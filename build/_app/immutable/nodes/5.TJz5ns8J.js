@@ -1,0 +1,4 @@
+import{s as o,n as a}from"../chunks/scheduler.k-kUyWhY.js";import{S as i,i as r,g as d,h as c,x as h,k as p,a as f,f as m}from"../chunks/index.wJJws_a0.js";function u(l){let e,s=`<h1>Fees</h1> <p>Based on the amount of time needed, the price provided will include
+    preparation time, follow up calls and all other expenses. Everyone should be
+    focused on reaching a satisfactory result, not a costly process. Generally,
+    a half day mediation fee will be $3500, and a full day fee will be $6000.</p>`;return{c(){e=d("div"),e.innerHTML=s,this.h()},l(t){e=c(t,"DIV",{class:!0,"data-svelte-h":!0}),h(e)!=="svelte-qw4xrl"&&(e.innerHTML=s),this.h()},h(){p(e,"class","svelte-1ye0vm")},m(t,n){f(t,e,n)},p:a,i:a,o:a,d(t){t&&m(e)}}}class x extends i{constructor(e){super(),r(this,e,null,u,o,{})}}export{x as component};
