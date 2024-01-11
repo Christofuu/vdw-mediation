@@ -14,7 +14,7 @@
         <li>Managing Director at investment banking firm</li>
         <li>Public and Private Company Board Member</li>
         <li>Shareholder in litigation firm, 15 years</li>
-        <li>AV rated since 1994</li>
+        <li>AV rated since 1996</li>
         <li>Certified Mediator, Align Mediation</li>
         <li>Army Officer</li>
         <li>William and Mary Law School, JD</li>
