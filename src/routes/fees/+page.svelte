@@ -1,10 +1,10 @@
 <div>
   <h1>Fees</h1>
   <p>
-    Based on the amount of time needed, the price provided will include
-    preparation time, follow up calls and all other expenses. Everyone should be
-    focused on reaching a satisfactory result, not a costly process. Generally,
-    a half day mediation fee will be $3500, and a full day fee will be $6000.
+    Generally, a half day mediation fee will be $4,500, and a full day fee will
+    be $8,000. The price provided will include 2 hours of preparation time.
+    Preparation time beyond 2 hours, and follow up that goes beyond 2 hours,
+    will be billed on an hourly basis at $500 per hour.
   </p>
 </div>
 
