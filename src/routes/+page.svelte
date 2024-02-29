@@ -52,10 +52,10 @@
     <div class="testimonial-credits">
       <h3>- Deborah A. Wolfe, Wolfe Legal Solutions, PC</h3>
       <ul>
-        <li>- Named Trial Lawyer of the Year twice by Consumer Attorneys of San Diego &lpar;<a href="www.casd.org">www.casd.org</a>&rpar;, 1996 and 2006</li>
+        <li>- Named Trial Lawyer of the Year twice by Consumer Attorneys of San Diego &lpar;<a href="https://www.casd.org">casd.org</a>&rpar;, 1996 and 2006</li>
         <li>- California Lawyer Magazine named her California Lawyer of the Year in 1996, and recognized her as one of the Top Ten Plaintiffs&apos; Legal Malpractice Attorneys in the state in 2002</li>
-        <li>- Certified as a legal specialist by the National Board of Civil Trial Advocacy &lpar;<a href='http://www.nblsc.us/'>www.nblsc.us</a>&rpar;, 1999</li>
-        <li>- Inducted into the American Board of Trial Advocates &lpar;<a href='www.abota.org'>www.abota.org</a>&rpar;, 2008</li>
+        <li>- Certified as a legal specialist by the National Board of Civil Trial Advocacy &lpar;<a href='https://www.nbtalawyers.org/civil-trial-law/'>nbtalawyers.org</a>&rpar;, 1999</li>
+        <li>- Inducted into the American Board of Trial Advocates &lpar;<a href='https://www.abota.org'>abota.org</a>&rpar;, 2008</li>
         <li>- Certified Legal Specialist &lpar;CLS&rpar; in two separate specialties: Civil Trial Advocacy and Legal Malpractice Law</li>
         <li>- Member, and then Chair, of California State Bar Advisory Commission on Legal Malpractice</li>
         <li>- Adjunct professor of Trial Advocacy at the University of San Diego</li>
