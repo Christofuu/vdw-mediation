@@ -90,6 +90,7 @@
 
   .navbar nav a {
     display: inline-block;
+    font-size: 1.2rem;
     margin: 0 1rem;
     text-decoration: none;
     color: whitesmoke;
@@ -115,7 +116,7 @@
   @media only screen and (max-width: 480px) {
     .navbar nav a {
       font-size: 0.8rem;
-      margin: 0 0.25rem;
+      margin: 0 0.5rem;
     }
   }
 </style>
